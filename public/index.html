@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="caixa">
+    <h1>Minhas Tarefas</h1>
+    <p id="contador" class="contador"></p>
+
+    <form id="form">
+      <input id="titulo" type="text" placeholder="O que você precisa fazer?" maxlength="120" autocomplete="off" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista"></ul>
+    <p id="vazio" class="vazio" hidden>Nenhuma tarefa por aqui. 🎉</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
